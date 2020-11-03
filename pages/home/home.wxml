@@ -1,4 +1,11 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello World</text>
-<button size="mini">按钮</button>
-<image src=""></image>
+<!-- 数据绑定 -->
+<view>Hello {{name}}</view>
+
+<!-- 列表渲染 -->
+<view wx:for="{{list}}" wx:key="index">{{item.name}}-{{item.num}}</view>
+
+<!-- 事件监听 -->
+<view>current Num:{{counter}}</view>
+<button size="mini" bindtap="AddNum">increase</button>
+<button size="mini" bindtap="SubNum">increase</button>
