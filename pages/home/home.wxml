@@ -2,3 +2,5 @@
 <text class="title">Hello World</text>
 <button size="mini">按钮</button>
 <image src=""></image>
+<view>tagtest2</view>
+<view>tagcontent2</view>
